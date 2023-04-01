@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.introduction{
+    background: url(annie-spratt-QckxruozjRg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+    color: #fff;
+    background-blend-mode: screen;
+}
+.introductionhead{
+        width: 60%;
+        margin: 0 auto;
+        padding: 8rem;
+        text-align: center;
+        color: #fff;
+}
+.introheading{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.introduction::before{
+    filter: brightness(70%);
+    background-color: rgba(0,0,0,1);
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+nav li {
+    cursor: pointer;
+    color: white;
+}
+.warp{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 6);
+    transition: 0.4s;
+    width: 310px;
+    background: lightcoral;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    justify-content: space-between;
+
+}
+.container-img{
+    padding-top:10px;
+    padding-bottom:10px; ;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0,6);
+}
+hr{
+    width: 20%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #fff;
+}
+h4,h5{
+
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 2px 16px;
+}
+.cardpara{
+    color: #fff;
+}
+.startingbutton a{
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border: 3px solid lightcoral;
+    color: #fff;
+    padding: 8px 8px;
+    
+}
+.servicesheading{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: lightcoral;
+}
+.servicesSecondheading{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.sevicespara
+{
+    text-align: center;
+    color: rgb(119, 119, 119);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.box{
+    width: 450px;
+    justify-content: center;
+}
+.box h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center; 
+}
+.box-image{
+    margin: 0 auto;
+    justify-content: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center; 
+}
+.box p{
+    text-align: center;
+    color: rgb(119, 119, 119);
+}
+.Detailed{
+    display: flex;
+    background-color: rgb(16, 27, 31);
+    margin-top: 50px;
+}
+.detailed_1{
+    width: 800px;
+}
+.detailed_1 h2{
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+.detailed_1 p{
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+    font-size: 1.2rem;
+    color: rgb(119, 119, 119);
+}
+.detailed_1 a{
+    border: 2px solid #fff;
+    margin-left: 200px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-top: 70px;
+    color: #fff;
+}
+.detailed_2{
+    margin: 100px 50px;
+}
+#container4{
+    display: flex;
+    background: rgb(247, 247, 247);
+}
+.fea{
+    width: 320px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 40px;
+    text-align: center;
+}
+.aside1{
+    width: 50%;
+}
+#aside2 h2{
+    width: 500px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+#aside2 p{
+    width: 600px;
+    margin-top: 30px;
+    color: rgb(119, 119, 119);
+}
+.secondBar ol{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:center;
+}
+.secondBar li{
+    margin: 50px;
+}
+.con-four{
+    display: flex;
+    background: rgb(247, 247, 247);
+}
+.con-one{
+    margin-left: 120px;
+    margin-top: 70px;
+}
+.con-two{
+    margin-left: 250px;
+}
+.con-one p{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(119, 119, 119);
+}
+.con-one a{
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border: 1px solid rgb(119, 119, 119) ;
+    padding: 8px 8px;
+    color: rgb(119, 119, 119);   
+}
+.con-one h2{
+    font-family: 'Roboto', sans-serif;
+}
+.secondlast{
+    display: flex;
+    background: rgb(16, 27, 31);
+    margin-bottom: 80px;
+}
+.lastitem{
+    color: #fff;
+}
+.lastitem h2{
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    margin-top: 70px; 
+}
+.lastitem p{
+    width: 80%;
+    margin-top: 50px;
+}
+.lastimg{
+    margin-left: 100px;
+}
+.close{
+    background: url(elena-joland-mjeQon0Mh_Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    position: relative;
+    background-blend-mode: screen;
+}
+.cloitem{
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 550px;
+    color: rgb(119, 119, 119);
+}
+.cloitem h2{
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    font-size: 38px;
+    text-align: center;
+    justify-content:center ;
+    margin-top: 120px;
+}
+.cloitem p{
+    width: 60%;
+    margin-top: 50px;
+}
+#container_10{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(16, 27, 31);
+    justify-content: center;
+}
+#container_10 .joy{
+    width: 600px;
+    margin: 100px,30px;
+}
+.nov ul{
+    color: #fff;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1.2rem;
+    margin-top: 20px;
+}
+#side1 h1{
+    color: #fff;
+    font-size: 3rem;
+}
+#side1 h5{
+    color: #fff;
+    margin-top: 80px;
+    font-size: 1.2rem;
+}
+#side1 p{
+    color: rgb(119, 119, 119);
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.joy p{
+    color: rgb(119, 119, 119); 
+}
+@media screen and (max-width: 992px){
+    nav{
+        width: 90%;
+    }
+    .introheading{
+        width: 500px;
+        margin-right: 400px;
+        justify-content: center;
+        text-align: right;
+    }
+    .introductionhead p{
+        width: 550px;
+        margin-right: 80%;
+        padding: 5px;
+        justify-content: center;
+        text-align: right;
+    }
+    .startingbutton{
+        width: 400px;
+        margin-bottom: 100px;
+    }
+    .warp{
+        margin-top: 30px;
+    }
+    .detailed_2{
+        margin: 70px 30px;
+    }
+    .detailed_2 img{
+        width: 150px;
+    }
+    .detailed_1{
+        width: 500px;
+    }
+    .detailed_1 h2{
+        font-size: 30px;
+        width: 65%;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .detailed_1 p{
+        font-size: 20px;
+        width: 65%;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .detailed_1 a{
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #aside2 h2{
+        width: 300px;
+        margin-top: 50px;
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #aside2 p{
+        width: 300px;
+        margin-top: 50px;
+        color: rgb(119, 119, 119);
+    }
+    .con-two img{
+        width: 400px;
+        height: 351px;
+    }
+    .con-one{
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    .con-one p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: rgb(119, 119, 119);
+        font-size: 15px;
+    }
+    .con-one h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+    }
+    .con-one a{
+        margin-right: 100px;
+    }
+    .con-two{
+        margin-left: 190px;
+    }
+} 
+
